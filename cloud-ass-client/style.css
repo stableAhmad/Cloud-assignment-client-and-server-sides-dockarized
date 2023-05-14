@@ -1,0 +1,131 @@
+/* Style the form container */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+/* Style the form groups */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Style the labels */
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+
+#save {
+  padding: 10px 20px;
+  background-color: #0077ff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#save:hover {
+  background-color: #0058cc;
+}
+
+/* Style the inputs */
+input[type="email"],
+input[type="text"],
+input[type="number"],
+select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0077ff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #0058cc;
+}
+
+
+/* Style the form container */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style the labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style the inputs */
+input[type="email"],
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  color: #333;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0077ff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #0058cc;
+}
+
+/* Style form elements on focus */
+input:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.3);
+  background-color: #fff;
+}
